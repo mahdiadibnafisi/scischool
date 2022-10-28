@@ -46,6 +46,7 @@
   }
   .header-right {
     float: none;
+    font-size: 26px;
   }
 } 
 .info {
