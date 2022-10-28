@@ -21,9 +21,8 @@
   font-weight: bold;
 }
 
-/* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
+  background-color: #FFDBAC;
   color: black;
 }
 
