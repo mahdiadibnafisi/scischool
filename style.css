@@ -4,17 +4,9 @@
   padding: 20px 10px;
   position: fixed;
   z-index: 2;
-  background-color: #E4BFFE;
+  background-color: var(--header-white);
   width: 100%;
 }
-.header.darkmode {
-  overflow: hidden;
-  padding: 20px 10px;
-  position: fixed;
-  z-index: 2;
-  background-color: #9C80B0;
-}
-
 /* Style the header links */
 .header a {
   float: left;
@@ -69,7 +61,7 @@
   .footer {
   padding: 20px;
   text-align: left;
-  background: #E4BFFE;
+  background: var(--header-white);
 }
   /* width */
 ::-webkit-scrollbar {
@@ -359,8 +351,10 @@ body {
 
   --bg-white: #FAF2F0;
   --bg-dark: rgb(38,40,41);
+  --header-white: #E4BFFE;
+  --header-dark: #9C80B0;
 
-  background-color: var(--bg-grey-light);
+  background-color: var(--bg-white);
 }
 .dark {
   --text-white: Black;
