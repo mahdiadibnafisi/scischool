@@ -313,4 +313,35 @@ div.content {
   background-color: rgb(39, 40, 41);
   color: white;
 }
-
+.buttun{
+   margin: 70px outo 0;
+ }
+ .buttun a{
+   width: 180px;
+   text-decoration: none;
+   display: inline-block;
+   margin: 0 10px;
+   padding: 20px 0;
+   font-size: 50px;
+   color: papayawhip;
+   border: 4px double cornsilk;
+   position: relative;
+   z-index: 1;
+   transition: 0.5s;
+ }
+ .buttun a span{
+   width: 0%;
+   height: 100%;
+   position: absolute;
+   background-color: rgba(199,213,237);
+   top: 0;
+   left: 0;
+   z-index: -1;
+   transition: 0.5s;
+ }
+.buttun a:hover span{
+   width: 100%;
+ }
+ .buttun a:hover{
+   color: #00B050;
+ }
