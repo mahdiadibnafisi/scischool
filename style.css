@@ -4,6 +4,14 @@
   padding: 20px 10px;
   position: fixed;
   z-index: 2;
+  background-color: #E4BFFE;
+}
+.header.darkmode {
+  overflow: hidden;
+  padding: 20px 10px;
+  position: fixed;
+  z-index: 2;
+  background-color: #9C80B0;
 }
 
 /* Style the header links */
