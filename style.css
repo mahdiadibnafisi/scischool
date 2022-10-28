@@ -2,6 +2,8 @@
 .header {
   overflow: hidden;
   padding: 20px 10px;
+  position: fixed;
+  z-index: 2;
 }
 
 /* Style the header links */
