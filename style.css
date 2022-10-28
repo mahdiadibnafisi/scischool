@@ -5,6 +5,7 @@
   position: fixed;
   z-index: 2;
   background-color: #E4BFFE;
+  width: 100%;
 }
 .header.darkmode {
   overflow: hidden;
