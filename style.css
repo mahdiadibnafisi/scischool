@@ -309,10 +309,7 @@ div.content {
   transform: translate(-50%, -50%);
   color: white;
 }
-.dark-mode {
-  background-color: rgb(39, 40, 41);
-  color: white;
-}
+
 .buttun{
    margin: 70px outo 0;
  }
@@ -355,4 +352,22 @@ div.content {
   content: "";
   display: table;
   clear: both;
+}
+body {
+  --text-white: #ffffff;
+  --text-dark: #142136;
+
+  --bg-white: #FAF2F0;
+  --bg-dark: rgb(38,40,41);
+  --bg-indigo: #6366f1;
+
+  background-color: var(--bg-grey-light);
+}
+.dark {
+  --text-white: #e6e6e6;
+  --text-dark: #ffffff;
+  --bg-grey-light: #142136;
+  --bg-white: #22395d;
+  --bg-blue-dark: #142136;
+  --bg-indigo: #7577e1;
 }
