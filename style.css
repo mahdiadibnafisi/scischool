@@ -348,9 +348,8 @@ div.content {
 body {
   --text-white: #ffffff;
   --text-dark: Black;
-
   --bg-white: #FAF2F0;
-  --bg-dark: rgb(38,40,41);
+  --bg-dark: #272829;
   --header-white: #E4BFFE;
   --header-dark: #9C80B0;
 
@@ -360,5 +359,7 @@ body {
   --text-white: Black;
   --text-dark: #ffffff;
   --bg-white: #22395d;
-  --bg-blue-dark: #FAF2F0;
+  --bg-dark: #272829;
+  --header-white: #E4BFFE;
+  --header-dark: #9C80B0;
 }
