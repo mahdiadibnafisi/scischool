@@ -358,8 +358,8 @@ body {
 .dark {
   --text-white: Black;
   --text-dark: #ffffff;
-  --bg-white: #22395d;
-  --bg-dark: #272829;
-  --header-white: #E4BFFE;
-  --header-dark: #9C80B0;
+  --bg-white: #272829;
+  --bg-dark: #FAF2F0;
+  --header-white: #9C80B0;
+  --header-dark: #E4BFFE;
 }
